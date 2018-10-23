@@ -60,7 +60,7 @@
 }
 /* jumbotron */
 .jumbotron{
-    background-image: url(file:///home/arizaz/belajar/fokus-2/portofolio/autumn-background-board-220116.jpg);
+    background-image: url(img/autumn-background-board-220116.jpg);
     background-size: cover;
     position: relative;
     
@@ -107,7 +107,7 @@ header ,
     height: 100%;
 }
 #intro{
-    background: url(file:///home/arizaz/belajar/fokus-2/portofolio/jj.png)no-repeat center center fixed;
+    background: url(img/jj.png)no-repeat center center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -184,7 +184,7 @@ header ,
 }
 /* section4 */
 .section4{
-    background-image: url(file:///home/arizaz/belajar/fokus-2/portofolio/backlit-black-and-white-black-and-white-763096.jpg);
+    background-image: url(img/backlit-black-and-white-black-and-white-763096.jpg);
     /* background-size: cover; */
     position: relative;
 }
