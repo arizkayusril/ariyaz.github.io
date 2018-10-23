@@ -1,0 +1,194 @@
+/* mask-background */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: viga;
+    font-size: 32px
+}
+.logo{
+    padding-top: 50px;
+}
+.about{
+    padding-top: -30px;
+}
+
+@media (min-width: 992px) { 
+    .navbar-brand,.nav-link{
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7) ;
+        color:#fff !important;
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        width:50%;
+        margin: auto; 
+        border-bottom: 3px solid rgba(1, 83, 221, 1);
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        margin-top: -75px;
+        height: 650px;
+    }
+    .jumbotron .display-4{
+        font-weight: 100;
+        color: #fff;
+        text-shadow: rgba(0, 0, 0, 0.7);
+        font-size: 62px;
+        padding-top: 50px;
+    
+    }
+    .jumbotron h5 span{
+        font-weight: bold;
+        text-shadow: rgba(0, 0, 0, 0.7);
+        font-size: 35px;
+       
+    }
+    .jumbotron h5{
+        font-size: 25px;
+    }
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+/* jumbotron */
+.jumbotron{
+    background-image: url(file:///home/arizaz/belajar/fokus-2/portofolio/autumn-background-board-220116.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+.jumbotron .display-4{
+    font-weight: 100;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    font-size: 45px;
+    padding-top: 50px;
+
+}
+.jumbotron h5 span{
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+   
+}
+.jumbotron h5{
+    font-size: 25px;
+}
+.header1{
+    color: #fff;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+/* mask */
+html ,
+body ,
+header ,
+#intro{
+    height: 100%;
+}
+#intro{
+    background: url(file:///home/arizaz/belajar/fokus-2/portofolio/jj.png)no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    display: block;
+}
+
+/* about */
+.lato{
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.arizka{
+    color:#fff !important;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.logo,.about{
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.top{
+    height: 600px;
+}
+/* what ido */
+.section3{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.image1 a{
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    color:skyblue; 
+    border: 1px solid gray;
+}
+
+.image1 i{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+.image1{
+    text-align: center;
+}
+.image1 a:hover{
+    background: skyblue;
+    color: #fff;
+}
+.image1 h4{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.image1 p{
+    color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+.icon3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+/* section4 */
+.section4{
+    background-image: url(file:///home/arizaz/belajar/fokus-2/portofolio/backlit-black-and-white-black-and-white-763096.jpg);
+    /* background-size: cover; */
+    position: relative;
+}
+.section4 h5{
+    text-align: center;
+}
+
